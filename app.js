@@ -7,7 +7,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-let $ = require("jquery");
 $(document).ready(function () {
     const pokemonList = document.getElementById('container');
     (function () {

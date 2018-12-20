@@ -1,4 +1,3 @@
-let $ = require("jquery");
 $(document).ready(function () {
 
     const pokemonList = document.getElementById('container');

@@ -4,7 +4,7 @@
   "description": "In this exercise, you have to implement a website that uses a RESTful Web API in the background. You have to create the website from scratch without any initial templates to build on. Feel free to use prior homeworks or samples from the course material as a starting point.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc app.ts"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "fetch": "^1.1.0",
     "jquery": "^3.3.1",
     "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.28"
   }
 }
